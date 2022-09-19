@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\rosidl_generator_py\tf2_msgs\_tf2_msgs_s.ep.rosidl_typesupport_c.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\src\tf2_msgs\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A71A0F15-AA35-3446-A815-C1EA565CF58D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

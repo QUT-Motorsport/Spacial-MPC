@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from driverless_msgs/msg\MPCPathPoint.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+
+module driverless_msgs {
+  module msg {
+    struct MPCPathPoint {
+      geometry_msgs::msg::Point location;
+
+      double track_angle;
+
+      double curvature;
+
+      double s;
+    };
+  };
+};

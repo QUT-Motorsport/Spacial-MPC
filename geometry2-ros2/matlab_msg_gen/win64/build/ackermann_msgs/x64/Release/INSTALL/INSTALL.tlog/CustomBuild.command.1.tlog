@@ -1,0 +1,10 @@
+^C:\USERS\PLASMINFORGE\DOCUMENTS\MATLAB_THESIS\GEOMETRY2-ROS2\MATLAB_MSG_GEN\WIN64\BUILD\ACKERMANN_MSGS\CMAKEFILES\7522E4A613EFF3742B0F87F5DBE8B86E\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

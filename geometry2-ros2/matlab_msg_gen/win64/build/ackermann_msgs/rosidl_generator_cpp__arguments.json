@@ -1,0 +1,21 @@
+{
+  "package_name": "ackermann_msgs",
+  "output_dir": "C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/build/ackermann_msgs/rosidl_generator_cpp/ackermann_msgs",
+  "template_dir": "C:/Program Files/MATLAB/R2021b/sys/ros2/win64/ros2/share/rosidl_generator_cpp/cmake/../resource",
+  "idl_tuples": [
+    "C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/build/ackermann_msgs/rosidl_adapter/ackermann_msgs:msg/AckermannDrive.idl"
+  ],
+  "target_dependencies": [
+    "C:/Program Files/MATLAB/R2021b/sys/ros2/win64/ros2/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp",
+    "C:/Program Files/MATLAB/R2021b/sys/ros2/win64/ros2/share/rosidl_generator_cpp/cmake/../../../Lib/site-packages/rosidl_generator_cpp/__init__.py",
+    "C:/Program Files/MATLAB/R2021b/sys/ros2/win64/ros2/share/rosidl_generator_cpp/cmake/../resource/action__struct.hpp.em",
+    "C:/Program Files/MATLAB/R2021b/sys/ros2/win64/ros2/share/rosidl_generator_cpp/cmake/../resource/idl.hpp.em",
+    "C:/Program Files/MATLAB/R2021b/sys/ros2/win64/ros2/share/rosidl_generator_cpp/cmake/../resource/idl__struct.hpp.em",
+    "C:/Program Files/MATLAB/R2021b/sys/ros2/win64/ros2/share/rosidl_generator_cpp/cmake/../resource/idl__traits.hpp.em",
+    "C:/Program Files/MATLAB/R2021b/sys/ros2/win64/ros2/share/rosidl_generator_cpp/cmake/../resource/msg__struct.hpp.em",
+    "C:/Program Files/MATLAB/R2021b/sys/ros2/win64/ros2/share/rosidl_generator_cpp/cmake/../resource/msg__traits.hpp.em",
+    "C:/Program Files/MATLAB/R2021b/sys/ros2/win64/ros2/share/rosidl_generator_cpp/cmake/../resource/srv__struct.hpp.em",
+    "C:/Program Files/MATLAB/R2021b/sys/ros2/win64/ros2/share/rosidl_generator_cpp/cmake/../resource/srv__traits.hpp.em",
+    "C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/build/ackermann_msgs/rosidl_adapter/ackermann_msgs/msg/AckermannDrive.idl"
+  ]
+}

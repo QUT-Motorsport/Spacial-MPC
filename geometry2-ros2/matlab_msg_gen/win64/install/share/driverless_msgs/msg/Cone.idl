@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from driverless_msgs/msg\Cone.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+
+module driverless_msgs {
+  module msg {
+    module Cone_Constants {
+      const uint8 BLUE = 0;
+      const uint8 YELLOW = 1;
+      const uint8 ORANGE_BIG = 2;
+      const uint8 ORANGE_SMALL = 3;
+      const uint8 UNKNOWN = 4;
+    };
+    struct Cone {
+      geometry_msgs::msg::Point location;
+
+      @verbatim (language="comment", text=" use the enum below")
+      uint8 color;
+    };
+  };
+};

@@ -1,0 +1,10 @@
+^C:\USERS\PLASMINFORGE\DOCUMENTS\MATLAB_THESIS\GEOMETRY2-ROS2\MATLAB_MSG_GEN\WIN64\BUILD\DRIVERLESS_MSGS\CMAKEFILES\CBD3FE73CDAC9E2B66D42DC3699766D2\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/src/driverless_msgs -BC:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/build/driverless_msgs --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/build/driverless_msgs/driverless_msgs.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

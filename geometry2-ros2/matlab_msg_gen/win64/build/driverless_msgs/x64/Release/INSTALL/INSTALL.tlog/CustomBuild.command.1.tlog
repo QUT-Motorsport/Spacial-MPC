@@ -1,0 +1,10 @@
+^C:\USERS\PLASMINFORGE\DOCUMENTS\MATLAB_THESIS\GEOMETRY2-ROS2\MATLAB_MSG_GEN\WIN64\BUILD\DRIVERLESS_MSGS\CMAKEFILES\CBD3FE73CDAC9E2B66D42DC3699766D2\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,18 @@
+Invoking command in 'C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\driverless_msgs': CommonProgramFiles=%CommonProgramFiles%
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files ProgramFiles=%ProgramFiles%
+ProgramFiles(x86)=C:\Program Files (x86) C:\Program Files\CMake\bin\cmake.EXE C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\src\driverless_msgs -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DCMAKE_CXX_COMPILER=cl.exe -DCMAKE_C_COMPILER=cl.exe -DCMAKE_LINKER=link.exe -DMSVC_TOOLSET_VERSION=141 -DCMAKE_CXX_FLAGS_RELEASE=/MD /Od /Ob2 /DNDEBUG -DCMAKE_INSTALL_PREFIX=C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\install -G Visual Studio 16 2019
+Invoked command in 'C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\driverless_msgs' returned '0': CommonProgramFiles=%CommonProgramFiles%
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files ProgramFiles=%ProgramFiles%
+ProgramFiles(x86)=C:\Program Files (x86) C:\Program Files\CMake\bin\cmake.EXE C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\src\driverless_msgs -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DCMAKE_CXX_COMPILER=cl.exe -DCMAKE_C_COMPILER=cl.exe -DCMAKE_LINKER=link.exe -DMSVC_TOOLSET_VERSION=141 -DCMAKE_CXX_FLAGS_RELEASE=/MD /Od /Ob2 /DNDEBUG -DCMAKE_INSTALL_PREFIX=C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\install -G Visual Studio 16 2019
+Invoking command in 'C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\driverless_msgs': CL=/MP CommonProgramFiles=%CommonProgramFiles%
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files ProgramFiles=%ProgramFiles%
+ProgramFiles(x86)=C:\Program Files (x86) C:\Program Files\CMake\bin\cmake.EXE --build C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\driverless_msgs --config Release
+Invoked command in 'C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\driverless_msgs' returned '0': CL=/MP CommonProgramFiles=%CommonProgramFiles%
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files ProgramFiles=%ProgramFiles%
+ProgramFiles(x86)=C:\Program Files (x86) C:\Program Files\CMake\bin\cmake.EXE --build C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\driverless_msgs --config Release
+Invoking command in 'None': CommonProgramFiles=%CommonProgramFiles%
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files ProgramFiles=%ProgramFiles%
+ProgramFiles(x86)=C:\Program Files (x86) C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\\MSBuild\Current\Bin\msbuild.EXE /p:Configuration=Release C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\driverless_msgs\INSTALL.vcxproj
+Invoked command in 'None' returned '0': CommonProgramFiles=%CommonProgramFiles%
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files ProgramFiles=%ProgramFiles%
+ProgramFiles(x86)=C:\Program Files (x86) C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\\MSBuild\Current\Bin\msbuild.EXE /p:Configuration=Release C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\driverless_msgs\INSTALL.vcxproj

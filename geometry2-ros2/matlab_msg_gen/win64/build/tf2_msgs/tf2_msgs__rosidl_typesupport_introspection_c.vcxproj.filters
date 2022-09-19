@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\rosidl_typesupport_introspection_c\tf2_msgs\msg\tf2_error__type_support.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\rosidl_typesupport_introspection_c\tf2_msgs\msg\tf_message__type_support.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\rosidl_typesupport_introspection_c\tf2_msgs\srv\frame_graph__type_support.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\rosidl_typesupport_introspection_c\tf2_msgs\msg\tf2_error__rosidl_typesupport_introspection_c.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\rosidl_typesupport_introspection_c\tf2_msgs\msg\tf_message__rosidl_typesupport_introspection_c.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\rosidl_typesupport_introspection_c\tf2_msgs\srv\frame_graph__rosidl_typesupport_introspection_c.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\CMakeFiles\a7df4ba7c5c21d10d44751dca803a97f\tf2_error__rosidl_typesupport_introspection_c.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\src\tf2_msgs\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{DCC02B03-6AD0-3B61-81CE-232274015CFB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{990B3E99-E322-37F3-BEB2-9A47776E25E7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A71A0F15-AA35-3446-A815-C1EA565CF58D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

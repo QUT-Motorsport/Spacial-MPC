@@ -1,0 +1,39 @@
+function X_next = stateFcn(X, U, track)%, Ts, trackFcn, trackOffset)
+    % consts
+    Ts = 0.1;
+    trackFcn = @track;
+    trackOffset = 0;
+    
+    % find x/y pos
+    X_next = [0 0 0 0 0 0];
+    X_next(1) = X(1) + X(3)*Ts;
+    X_next(2) = X(2) + X(4)*Ts;
+    
+    % use x/y pos to find s pos
+    s = linspace(0, 10, 1000);
+    [trackX, trackY] = trackFcn(s, trackOffset);
+    [m, i] = min(sqrt((trackX-X_next(1)).^2 + (trackY-X_next(2)).^2));
+    X_next(5) = s(i);
+    
+    % use s pos to find track angle
+    i2 = i;
+    if i2 == length(trackX)
+        i2 = i2 - 1;
+    end
+    track_angle = atan2(trackY(i2+1)-trackY(i2), trackX(i2+1)-trackX(i2));
+    vel_angle = atan2(X_next(4), X_next(3));
+    rel_angle = track_angle - vel_angle;
+    X_next(6) = X(5) + sqrt(X_next(3)^2 + X_next(4)^2)*Ts*cos(rel_angle);
+
+    % adjust forces to act along track
+%     u1 = cos(track_angle)*U(1) + cos(track_angle + pi/2)*U(2);
+%     u2 = sin(track_angle)*U(1) + sin(track_angle + pi/2)*U(2);
+    u1 = U(1);
+    u2 = U(2);
+
+    % use forces to find velocities
+    X_next(3) = X(3) + u1*Ts;
+    X_next(4) = X(4) + u2*Ts;
+
+    
+end

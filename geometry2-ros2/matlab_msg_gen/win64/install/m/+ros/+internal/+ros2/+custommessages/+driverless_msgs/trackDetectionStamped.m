@@ -1,0 +1,36 @@
+function [data, info] = trackDetectionStamped
+%TrackDetectionStamped gives an empty data for driverless_msgs/TrackDetectionStamped
+% Copyright 2019-2021 The MathWorks, Inc.
+data = struct();
+data.MessageType = 'driverless_msgs/TrackDetectionStamped';
+[data.header, info.header] = ros.internal.ros2.messages.std_msgs.header;
+info.header.MLdataType = 'struct';
+[data.cones, info.cones] = ros.internal.ros2.custommessages.driverless_msgs.coneWithCovariance;
+info.cones.MLdataType = 'struct';
+info.cones.MaxLen = NaN;
+info.cones.MinLen = 0;
+info.MessageType = 'driverless_msgs/TrackDetectionStamped';
+info.constant = 0;
+info.default = 0;
+info.maxstrlen = NaN;
+info.MaxLen = 1;
+info.MinLen = 1;
+info.MatPath = cell(1,18);
+info.MatPath{1} = 'header';
+info.MatPath{2} = 'header.stamp';
+info.MatPath{3} = 'header.stamp.sec';
+info.MatPath{4} = 'header.stamp.nanosec';
+info.MatPath{5} = 'header.frame_id';
+info.MatPath{6} = 'cones';
+info.MatPath{7} = 'cones.cone';
+info.MatPath{8} = 'cones.cone.location';
+info.MatPath{9} = 'cones.cone.location.x';
+info.MatPath{10} = 'cones.cone.location.y';
+info.MatPath{11} = 'cones.cone.location.z';
+info.MatPath{12} = 'cones.cone.color';
+info.MatPath{13} = 'cones.cone.BLUE';
+info.MatPath{14} = 'cones.cone.YELLOW';
+info.MatPath{15} = 'cones.cone.ORANGE_BIG';
+info.MatPath{16} = 'cones.cone.ORANGE_SMALL';
+info.MatPath{17} = 'cones.cone.UNKNOWN';
+info.MatPath{18} = 'cones.covariance';

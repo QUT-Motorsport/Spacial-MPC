@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\ackermann_msgs\CMakeFiles\e0c570d7d42ba903fcbda32d7a1c3a70\_ackermann_msgs_s.ep.rosidl_typesupport_c.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\ackermann_msgs\CMakeFiles\a3389499d409360b6a05f1e445c8e7f7\ackermann_msgs__py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\ackermann_msgs\ackermann_msgs__py\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\ackermann_msgs\ackermann_msgs__py\CMakeFiles\ackermann_msgs__py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{8BD7F404-6E03-3BC3-9523-C7E7229241FA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from driverless_msgs/srv\SelectMission.srv
+// generated code does not contain a copyright notice
+
+
+module driverless_msgs {
+  module srv {
+    struct SelectMission_Request {
+      string mission;
+    };
+    struct SelectMission_Response {
+      string confirmation;
+    };
+  };
+};

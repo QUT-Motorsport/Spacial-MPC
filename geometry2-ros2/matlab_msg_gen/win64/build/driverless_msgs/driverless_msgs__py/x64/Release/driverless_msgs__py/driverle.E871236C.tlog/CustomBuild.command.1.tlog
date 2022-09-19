@@ -1,0 +1,28 @@
+^C:\USERS\PLASMINFORGE\DOCUMENTS\MATLAB_THESIS\GEOMETRY2-ROS2\MATLAB_MSG_GEN\WIN64\BUILD\DRIVERLESS_MSGS\CMAKEFILES\A1EA244EDF6670FCECAAA184DB8591D1\_DRIVERLESS_MSGS_S.EP.ROSIDL_TYPESUPPORT_C.C.RULE
+setlocal
+C:\Users\PLASMINFORGE\AppData\Roaming\MathWorks\MATLAB\R2021b\ros2\win64\venv\Scripts\python.exe "C:/Program Files/MATLAB/R2021b/sys/ros2/win64/ros2/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py" --generator-arguments-file C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/build/driverless_msgs/rosidl_generator_py__arguments.json --typesupport-impls rosidl_typesupport_c";"rosidl_typesupport_fastrtps_c";"rosidl_typesupport_introspection_c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PLASMINFORGE\DOCUMENTS\MATLAB_THESIS\GEOMETRY2-ROS2\MATLAB_MSG_GEN\WIN64\BUILD\DRIVERLESS_MSGS\CMAKEFILES\C80C49D9B559548BFCB86355A88E8D24\DRIVERLESS_MSGS__PY.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PLASMINFORGE\DOCUMENTS\MATLAB_THESIS\GEOMETRY2-ROS2\MATLAB_MSG_GEN\WIN64\BUILD\DRIVERLESS_MSGS\DRIVERLESS_MSGS__PY\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/src/driverless_msgs -BC:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/build/driverless_msgs --check-stamp-file C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/build/driverless_msgs/driverless_msgs__py/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

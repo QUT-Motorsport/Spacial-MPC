@@ -1,0 +1,29 @@
+function [data, info] = pathStamped
+%PathStamped gives an empty data for driverless_msgs/PathStamped
+% Copyright 2019-2021 The MathWorks, Inc.
+data = struct();
+data.MessageType = 'driverless_msgs/PathStamped';
+[data.header, info.header] = ros.internal.ros2.messages.std_msgs.header;
+info.header.MLdataType = 'struct';
+[data.path, info.path] = ros.internal.ros2.custommessages.driverless_msgs.pathPoint;
+info.path.MLdataType = 'struct';
+info.path.MaxLen = NaN;
+info.path.MinLen = 0;
+info.MessageType = 'driverless_msgs/PathStamped';
+info.constant = 0;
+info.default = 0;
+info.maxstrlen = NaN;
+info.MaxLen = 1;
+info.MinLen = 1;
+info.MatPath = cell(1,11);
+info.MatPath{1} = 'header';
+info.MatPath{2} = 'header.stamp';
+info.MatPath{3} = 'header.stamp.sec';
+info.MatPath{4} = 'header.stamp.nanosec';
+info.MatPath{5} = 'header.frame_id';
+info.MatPath{6} = 'path';
+info.MatPath{7} = 'path.location';
+info.MatPath{8} = 'path.location.x';
+info.MatPath{9} = 'path.location.y';
+info.MatPath{10} = 'path.location.z';
+info.MatPath{11} = 'path.turn_intensity';

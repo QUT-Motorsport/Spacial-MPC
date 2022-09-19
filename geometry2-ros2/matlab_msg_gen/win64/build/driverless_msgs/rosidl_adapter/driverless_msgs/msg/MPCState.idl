@@ -1,0 +1,35 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from driverless_msgs/msg\MPCState.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module driverless_msgs {
+  module msg {
+    struct MPCState {
+      @verbatim (language="comment", text=" distance along track centerline (used with matching track)")
+      double s;
+
+      @verbatim (language="comment", text=" distance from track centerline")
+      double ey;
+
+      @verbatim (language="comment", text=" angle relative to track centerline")
+      double etheta;
+
+      @verbatim (language="comment", text=" angular velocity of the car relative to ground (combine with track curvature to get angular velocity relative to track centerline)")
+      double otheta_dot;
+
+      @verbatim (language="comment", text=" forward velocity")
+      double vx;
+
+      @verbatim (language="comment", text=" sideways (left) velocity")
+      double vy;
+
+      @verbatim (language="comment", text=" steering angle")
+      double d;
+
+      @verbatim (language="comment", text=" time")
+      builtin_interfaces::msg::Time t;
+    };
+  };
+};

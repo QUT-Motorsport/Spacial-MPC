@@ -1,0 +1,31 @@
+function [data, info] = mPCState
+%MPCState gives an empty data for driverless_msgs/MPCState
+% Copyright 2019-2021 The MathWorks, Inc.
+data = struct();
+data.MessageType = 'driverless_msgs/MPCState';
+[data.s, info.s] = ros.internal.ros2.messages.ros2.default_type('double',1,0);
+[data.ey, info.ey] = ros.internal.ros2.messages.ros2.default_type('double',1,0);
+[data.etheta, info.etheta] = ros.internal.ros2.messages.ros2.default_type('double',1,0);
+[data.otheta_dot, info.otheta_dot] = ros.internal.ros2.messages.ros2.default_type('double',1,0);
+[data.vx, info.vx] = ros.internal.ros2.messages.ros2.default_type('double',1,0);
+[data.vy, info.vy] = ros.internal.ros2.messages.ros2.default_type('double',1,0);
+[data.d, info.d] = ros.internal.ros2.messages.ros2.default_type('double',1,0);
+[data.t, info.t] = ros.internal.ros2.messages.builtin_interfaces.time;
+info.t.MLdataType = 'struct';
+info.MessageType = 'driverless_msgs/MPCState';
+info.constant = 0;
+info.default = 0;
+info.maxstrlen = NaN;
+info.MaxLen = 1;
+info.MinLen = 1;
+info.MatPath = cell(1,10);
+info.MatPath{1} = 's';
+info.MatPath{2} = 'ey';
+info.MatPath{3} = 'etheta';
+info.MatPath{4} = 'otheta_dot';
+info.MatPath{5} = 'vx';
+info.MatPath{6} = 'vy';
+info.MatPath{7} = 'd';
+info.MatPath{8} = 't';
+info.MatPath{9} = 't.sec';
+info.MatPath{10} = 't.nanosec';

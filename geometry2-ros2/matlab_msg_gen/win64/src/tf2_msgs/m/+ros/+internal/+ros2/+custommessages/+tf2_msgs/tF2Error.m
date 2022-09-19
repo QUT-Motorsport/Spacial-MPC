@@ -1,0 +1,30 @@
+function [data, info] = tF2Error
+%TF2Error gives an empty data for tf2_msgs/TF2Error
+% Copyright 2019-2021 The MathWorks, Inc.
+data = struct();
+data.MessageType = 'tf2_msgs/TF2Error';
+[data.NO_ERROR, info.NO_ERROR] = ros.internal.ros2.messages.ros2.default_type('uint8',1,0, 0, [NaN]);
+[data.LOOKUP_ERROR, info.LOOKUP_ERROR] = ros.internal.ros2.messages.ros2.default_type('uint8',1,0, 1, [NaN]);
+[data.CONNECTIVITY_ERROR, info.CONNECTIVITY_ERROR] = ros.internal.ros2.messages.ros2.default_type('uint8',1,0, 2, [NaN]);
+[data.EXTRAPOLATION_ERROR, info.EXTRAPOLATION_ERROR] = ros.internal.ros2.messages.ros2.default_type('uint8',1,0, 3, [NaN]);
+[data.INVALID_ARGUMENT_ERROR, info.INVALID_ARGUMENT_ERROR] = ros.internal.ros2.messages.ros2.default_type('uint8',1,0, 4, [NaN]);
+[data.TIMEOUT_ERROR, info.TIMEOUT_ERROR] = ros.internal.ros2.messages.ros2.default_type('uint8',1,0, 5, [NaN]);
+[data.TRANSFORM_ERROR, info.TRANSFORM_ERROR] = ros.internal.ros2.messages.ros2.default_type('uint8',1,0, 6, [NaN]);
+[data.error, info.error] = ros.internal.ros2.messages.ros2.default_type('uint8',1,0);
+[data.error_string, info.error_string] = ros.internal.ros2.messages.ros2.char('string',1,NaN,0);
+info.MessageType = 'tf2_msgs/TF2Error';
+info.constant = 0;
+info.default = 0;
+info.maxstrlen = NaN;
+info.MaxLen = 1;
+info.MinLen = 1;
+info.MatPath = cell(1,9);
+info.MatPath{1} = 'NO_ERROR';
+info.MatPath{2} = 'LOOKUP_ERROR';
+info.MatPath{3} = 'CONNECTIVITY_ERROR';
+info.MatPath{4} = 'EXTRAPOLATION_ERROR';
+info.MatPath{5} = 'INVALID_ARGUMENT_ERROR';
+info.MatPath{6} = 'TIMEOUT_ERROR';
+info.MatPath{7} = 'TRANSFORM_ERROR';
+info.MatPath{8} = 'error';
+info.MatPath{9} = 'error_string';

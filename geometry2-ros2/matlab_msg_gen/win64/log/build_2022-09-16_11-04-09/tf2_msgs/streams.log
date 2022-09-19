@@ -1,0 +1,436 @@
+Invoking command in 'C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs': CommonProgramFiles=%CommonProgramFiles%
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files ProgramFiles=%ProgramFiles%
+ProgramFiles(x86)=C:\Program Files (x86) C:\Program Files\CMake\bin\cmake.EXE C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\src\tf2_msgs -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DCMAKE_CXX_COMPILER=cl.exe -DCMAKE_C_COMPILER=cl.exe -DCMAKE_LINKER=link.exe -DMSVC_TOOLSET_VERSION=141 -DCMAKE_CXX_FLAGS_RELEASE=/MD /Od /Ob2 /DNDEBUG -DCMAKE_INSTALL_PREFIX=C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\install -G Visual Studio 16 2019
+-- Selecting Windows SDK version 10.0.19041.0 to target Windows 10.0.19044.
+-- Found ament_cmake: 0.7.3 (C:/Program Files/MATLAB/R2021b/sys/ros2/win64/ros2/share/ament_cmake/cmake)
+-- Found PythonInterp: C:/Users/PLASMINFORGE/AppData/Roaming/MathWorks/MATLAB/R2021b/ros2/win64/venv/Scripts/python.exe (found suitable version "3.7.9", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: C:/Users/PLASMINFORGE/AppData/Roaming/MathWorks/MATLAB/R2021b/ros2/win64/venv/Scripts/python.exe
+-- Found ament_cmake_ros: 0.7.0 (C:/Program Files/MATLAB/R2021b/sys/ros2/win64/ros2/share/ament_cmake_ros/cmake)
+-- Found rosidl_typesupport_c: 0.7.1 (C:/Program Files/MATLAB/R2021b/sys/ros2/win64/ros2/share/rosidl_typesupport_c/cmake)
+-- Found rosidl_typesupport_cpp: 0.7.1 (C:/Program Files/MATLAB/R2021b/sys/ros2/win64/ros2/share/rosidl_typesupport_cpp/cmake)
+-- Found rosidl_default_generators: 0.7.0 (C:/Program Files/MATLAB/R2021b/sys/ros2/win64/ros2/share/rosidl_default_generators/cmake)
+-- Found rosidl_adapter: 0.7.4 (C:/Program Files/MATLAB/R2021b/sys/ros2/win64/ros2/share/rosidl_adapter/cmake)
+-- Found class_loader: 1.3.1 (C:/Program Files/MATLAB/R2021b/sys/ros2/win64/ros2/share/class_loader/cmake)
+-- Found poco_vendor:  (C:/Program Files/MATLAB/R2021b/sys/ros2/win64/ros2/share/poco_vendor/cmake)
+-- Found geometry_msgs: 0.7.0 (C:/Program Files/MATLAB/R2021b/sys/ros2/win64/ros2/share/geometry_msgs/cmake)
+-- Found rclcpp: 0.7.6 (C:/Program Files/MATLAB/R2021b/sys/ros2/win64/ros2/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 0.7.2 (C:/Program Files/MATLAB/R2021b/sys/ros2/win64/ros2/share/rmw_implementation_cmake/cmake)
+-- Found PythonInterp: C:/Users/PLASMINFORGE/AppData/Roaming/MathWorks/MATLAB/R2021b/ros2/win64/venv/Scripts/python.exe (found version "3.7.9") 
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: C:/Users/PLASMINFORGE/AppData/Roaming/MathWorks/MATLAB/R2021b/ros2/win64/venv/Scripts/python.exe (found suitable version "3.7.9", minimum required is "3.5") 
+-- Found python_cmake_module: 0.7.7 (C:/Program Files/MATLAB/R2021b/sys/ros2/win64/ros2/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: C:/Users/PLASMINFORGE/AppData/Roaming/MathWorks/MATLAB/R2021b/ros2/win64/venv/Scripts/python.exe
+-- Using PYTHON_INCLUDE_DIRS: C:/Users/PLASMINFORGE/AppData/Roaming/MathWorks/MATLAB/R2021b/ros2/win64/venv/Scripts/include
+-- Using PYTHON_LIBRARIES: C:/Users/PLASMINFORGE/AppData/Roaming/MathWorks/MATLAB/R2021b/ros2/win64/venv/Scripts/libs/python37.lib
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/build/tf2_msgs
+Invoked command in 'C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs' returned '0': CommonProgramFiles=%CommonProgramFiles%
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files ProgramFiles=%ProgramFiles%
+ProgramFiles(x86)=C:\Program Files (x86) C:\Program Files\CMake\bin\cmake.EXE C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\src\tf2_msgs -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DCMAKE_CXX_COMPILER=cl.exe -DCMAKE_C_COMPILER=cl.exe -DCMAKE_LINKER=link.exe -DMSVC_TOOLSET_VERSION=141 -DCMAKE_CXX_FLAGS_RELEASE=/MD /Od /Ob2 /DNDEBUG -DCMAKE_INSTALL_PREFIX=C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\install -G Visual Studio 16 2019
+Invoking command in 'C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs': CL=/MP CommonProgramFiles=%CommonProgramFiles%
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files ProgramFiles=%ProgramFiles%
+ProgramFiles(x86)=C:\Program Files (x86) C:\Program Files\CMake\bin\cmake.EXE --build C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs --config Release
+Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  tf2_msgs__rosidl_generator_c.vcxproj -> C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\Release\tf2_msgs__rosidl_generator_c.dll
+  tf2_msgs__rosidl_typesupport_c.vcxproj -> C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\Release\tf2_msgs__rosidl_typesupport_c.dll
+  tf2_msgs__rosidl_typesupport_cpp.vcxproj -> C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\Release\tf2_msgs__rosidl_typesupport_cpp.dll
+  tf2_msgs__rosidl_typesupport_fastrtps_cpp.vcxproj -> C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\Release\tf2_msgs__rosidl_typesupport_fastrtps_cpp.dll
+  tf2_msgs__rosidl_typesupport_fastrtps_c.vcxproj -> C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\Release\tf2_msgs__rosidl_typesupport_fastrtps_c.dll
+  tf2_msgs__rosidl_typesupport_introspection_c.vcxproj -> C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\Release\tf2_msgs__rosidl_typesupport_introspection_c.dll
+  tf2_msgs__rosidl_typesupport_introspection_cpp.vcxproj -> C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\Release\tf2_msgs__rosidl_typesupport_introspection_cpp.dll
+  tf2_msgs__python.vcxproj -> C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\rosidl_generator_py\tf2_msgs\tf2_msgs__python.dll
+  tf2_msgs__rosidl_typesupport_c__pyext.vcxproj -> C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\rosidl_generator_py\tf2_msgs\tf2_msgs_s__rosidl_typesupport_c.pyd
+  tf2_msgs__rosidl_typesupport_fastrtps_c__pyext.vcxproj -> C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\rosidl_generator_py\tf2_msgs\tf2_msgs_s__rosidl_typesupport_fastrtps_c.pyd
+  tf2_msgs__rosidl_typesupport_introspection_c__pyext.vcxproj -> C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\rosidl_generator_py\tf2_msgs\tf2_msgs_s__rosidl_typesupport_introspection_c.pyd
+  tf2_msgs_matlab.vcxproj -> C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\Release\tf2_msgs_matlab.dll
+Invoked command in 'C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs' returned '0': CL=/MP CommonProgramFiles=%CommonProgramFiles%
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files ProgramFiles=%ProgramFiles%
+ProgramFiles(x86)=C:\Program Files (x86) C:\Program Files\CMake\bin\cmake.EXE --build C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs --config Release
+Invoking command in 'None': CommonProgramFiles=%CommonProgramFiles%
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files ProgramFiles=%ProgramFiles%
+ProgramFiles(x86)=C:\Program Files (x86) C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\\MSBuild\Current\Bin\msbuild.EXE /p:Configuration=Release C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\INSTALL.vcxproj
+Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 16/09/2022 11:04:20 AM.
+Project "C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\INSTALL.vcxproj" on node 1 (default targets).
+Project "C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\INSTALL.vcxproj" (1) is building "C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+InitializeBuildStatus:
+  Creating "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  All outputs are up-to-date.
+FinalizeBuildStatus:
+  Deleting file "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+  Touching "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+Done Building Project "C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\ZERO_CHECK.vcxproj" (default targets).
+Project "C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\INSTALL.vcxproj" (1) is building "C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\ALL_BUILD.vcxproj" (3) on node 1 (default targets).
+Project "C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\ALL_BUILD.vcxproj" (3) is building "C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\tf2_msgs.vcxproj" (4) on node 1 (default targets).
+Project "C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\tf2_msgs.vcxproj" (4) is building "C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\tf2_msgs__cpp.vcxproj" (5) on node 1 (default targets).
+InitializeBuildStatus:
+  Creating "x64\Release\tf2_msgs__cpp\tf2_msgs__cpp.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+FinalizeBuildStatus:
+  Deleting file "x64\Release\tf2_msgs__cpp\tf2_msgs__cpp.tlog\unsuccessfulbuild".
+  Touching "x64\Release\tf2_msgs__cpp\tf2_msgs__cpp.tlog\tf2_msgs__cpp.lastbuildstate".
+Done Building Project "C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\tf2_msgs__cpp.vcxproj" (default targets).
+Project "C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\tf2_msgs.vcxproj" (4) is building "C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\tf2_msgs__rosidl_generator_c.vcxproj" (6) on node 1 (default targets).
+InitializeBuildStatus:
+  Creating "tf2_msgs__rosidl_generator_c.dir\Release\tf2_msgs.A765CD41.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  All outputs are up-to-date.
+ClCompile:
+  All outputs are up-to-date.
+Link:
+  All outputs are up-to-date.
+  tf2_msgs__rosidl_generator_c.vcxproj -> C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\Release\tf2_msgs__rosidl_generator_c.dll
+FinalizeBuildStatus:
+  Deleting file "tf2_msgs__rosidl_generator_c.dir\Release\tf2_msgs.A765CD41.tlog\unsuccessfulbuild".
+  Touching "tf2_msgs__rosidl_generator_c.dir\Release\tf2_msgs.A765CD41.tlog\tf2_msgs__rosidl_generator_c.lastbuildstate".
+Done Building Project "C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\tf2_msgs__rosidl_generator_c.vcxproj" (default targets).
+Project "C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\tf2_msgs.vcxproj" (4) is building "C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\tf2_msgs__rosidl_typesupport_c.vcxproj" (7) on node 1 (default targets).
+InitializeBuildStatus:
+  Creating "tf2_msgs__rosidl_typesupport_c.dir\Release\tf2_msgs.BACE89C8.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  All outputs are up-to-date.
+ClCompile:
+  All outputs are up-to-date.
+Link:
+  All outputs are up-to-date.
+  tf2_msgs__rosidl_typesupport_c.vcxproj -> C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\Release\tf2_msgs__rosidl_typesupport_c.dll
+FinalizeBuildStatus:
+  Deleting file "tf2_msgs__rosidl_typesupport_c.dir\Release\tf2_msgs.BACE89C8.tlog\unsuccessfulbuild".
+  Touching "tf2_msgs__rosidl_typesupport_c.dir\Release\tf2_msgs.BACE89C8.tlog\tf2_msgs__rosidl_typesupport_c.lastbuildstate".
+Done Building Project "C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\tf2_msgs__rosidl_typesupport_c.vcxproj" (default targets).
+Project "C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\tf2_msgs.vcxproj" (4) is building "C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\tf2_msgs__rosidl_typesupport_cpp.vcxproj" (8) on node 1 (default targets).
+InitializeBuildStatus:
+  Creating "tf2_msgs__rosidl_typesupport_cpp.dir\Release\tf2_msgs.D019BBEF.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  All outputs are up-to-date.
+ClCompile:
+  All outputs are up-to-date.
+Link:
+  All outputs are up-to-date.
+  tf2_msgs__rosidl_typesupport_cpp.vcxproj -> C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\Release\tf2_msgs__rosidl_typesupport_cpp.dll
+FinalizeBuildStatus:
+  Deleting file "tf2_msgs__rosidl_typesupport_cpp.dir\Release\tf2_msgs.D019BBEF.tlog\unsuccessfulbuild".
+  Touching "tf2_msgs__rosidl_typesupport_cpp.dir\Release\tf2_msgs.D019BBEF.tlog\tf2_msgs__rosidl_typesupport_cpp.lastbuildstate".
+Done Building Project "C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\tf2_msgs__rosidl_typesupport_cpp.vcxproj" (default targets).
+Project "C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\tf2_msgs.vcxproj" (4) is building "C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\tf2_msgs__rosidl_typesupport_fastrtps_c.vcxproj" (9) on node 1 (default targets).
+Project "C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\tf2_msgs__rosidl_typesupport_fastrtps_c.vcxproj" (9) is building "C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\tf2_msgs__rosidl_typesupport_fastrtps_cpp.vcxproj" (10) on node 1 (default targets).
+InitializeBuildStatus:
+  Creating "tf2_msgs__rosidl_typesupport_fastrtps_cpp.dir\Release\tf2_msgs.AF606F2B.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  All outputs are up-to-date.
+ClCompile:
+  All outputs are up-to-date.
+Link:
+  All outputs are up-to-date.
+  tf2_msgs__rosidl_typesupport_fastrtps_cpp.vcxproj -> C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\Release\tf2_msgs__rosidl_typesupport_fastrtps_cpp.dll
+FinalizeBuildStatus:
+  Deleting file "tf2_msgs__rosidl_typesupport_fastrtps_cpp.dir\Release\tf2_msgs.AF606F2B.tlog\unsuccessfulbuild".
+  Touching "tf2_msgs__rosidl_typesupport_fastrtps_cpp.dir\Release\tf2_msgs.AF606F2B.tlog\tf2_msgs__rosidl_typesupport_fastrtps_cpp.lastbuildstate".
+Done Building Project "C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\tf2_msgs__rosidl_typesupport_fastrtps_cpp.vcxproj" (default targets).
+InitializeBuildStatus:
+  Creating "tf2_msgs__rosidl_typesupport_fastrtps_c.dir\Release\tf2_msgs.5E173E04.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  All outputs are up-to-date.
+ClCompile:
+  All outputs are up-to-date.
+Link:
+  All outputs are up-to-date.
+  tf2_msgs__rosidl_typesupport_fastrtps_c.vcxproj -> C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\Release\tf2_msgs__rosidl_typesupport_fastrtps_c.dll
+FinalizeBuildStatus:
+  Deleting file "tf2_msgs__rosidl_typesupport_fastrtps_c.dir\Release\tf2_msgs.5E173E04.tlog\unsuccessfulbuild".
+  Touching "tf2_msgs__rosidl_typesupport_fastrtps_c.dir\Release\tf2_msgs.5E173E04.tlog\tf2_msgs__rosidl_typesupport_fastrtps_c.lastbuildstate".
+Done Building Project "C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\tf2_msgs__rosidl_typesupport_fastrtps_c.vcxproj" (default targets).
+Project "C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\tf2_msgs.vcxproj" (4) is building "C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\tf2_msgs__rosidl_typesupport_introspection_c.vcxproj" (11) on node 1 (default targets).
+InitializeBuildStatus:
+  Creating "tf2_msgs__rosidl_typesupport_introspection_c.dir\Release\tf2_msgs.65A065D6.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  All outputs are up-to-date.
+ClCompile:
+  All outputs are up-to-date.
+Link:
+  All outputs are up-to-date.
+  tf2_msgs__rosidl_typesupport_introspection_c.vcxproj -> C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\Release\tf2_msgs__rosidl_typesupport_introspection_c.dll
+FinalizeBuildStatus:
+  Deleting file "tf2_msgs__rosidl_typesupport_introspection_c.dir\Release\tf2_msgs.65A065D6.tlog\unsuccessfulbuild".
+  Touching "tf2_msgs__rosidl_typesupport_introspection_c.dir\Release\tf2_msgs.65A065D6.tlog\tf2_msgs__rosidl_typesupport_introspection_c.lastbuildstate".
+Done Building Project "C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\tf2_msgs__rosidl_typesupport_introspection_c.vcxproj" (default targets).
+Project "C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\tf2_msgs.vcxproj" (4) is building "C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\tf2_msgs__rosidl_typesupport_introspection_cpp.vcxproj" (12) on node 1 (default targets).
+InitializeBuildStatus:
+  Creating "tf2_msgs__rosidl_typesupport_introspection_cpp.dir\Release\tf2_msgs.EC92C737.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  All outputs are up-to-date.
+ClCompile:
+  All outputs are up-to-date.
+Link:
+  All outputs are up-to-date.
+  tf2_msgs__rosidl_typesupport_introspection_cpp.vcxproj -> C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\Release\tf2_msgs__rosidl_typesupport_introspection_cpp.dll
+FinalizeBuildStatus:
+  Deleting file "tf2_msgs__rosidl_typesupport_introspection_cpp.dir\Release\tf2_msgs.EC92C737.tlog\unsuccessfulbuild".
+  Touching "tf2_msgs__rosidl_typesupport_introspection_cpp.dir\Release\tf2_msgs.EC92C737.tlog\tf2_msgs__rosidl_typesupport_introspection_cpp.lastbuildstate".
+Done Building Project "C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\tf2_msgs__rosidl_typesupport_introspection_cpp.vcxproj" (default targets).
+InitializeBuildStatus:
+  Creating "x64\Release\tf2_msgs\tf2_msgs.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+FinalizeBuildStatus:
+  Deleting file "x64\Release\tf2_msgs\tf2_msgs.tlog\unsuccessfulbuild".
+  Touching "x64\Release\tf2_msgs\tf2_msgs.tlog\tf2_msgs.lastbuildstate".
+Done Building Project "C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\tf2_msgs.vcxproj" (default targets).
+Project "C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\ALL_BUILD.vcxproj" (3) is building "C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\tf2_msgs__python.vcxproj" (13) on node 1 (default targets).
+Project "C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\tf2_msgs__python.vcxproj" (13) is building "C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\tf2_msgs__py\tf2_msgs__py.vcxproj" (14) on node 1 (default targets).
+InitializeBuildStatus:
+  Creating "x64\Release\tf2_msgs__py\tf2_msgs__py.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+FinalizeBuildStatus:
+  Deleting file "x64\Release\tf2_msgs__py\tf2_msgs__py.tlog\unsuccessfulbuild".
+  Touching "x64\Release\tf2_msgs__py\tf2_msgs__py.tlog\tf2_msgs__py.lastbuildstate".
+Done Building Project "C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\tf2_msgs__py\tf2_msgs__py.vcxproj" (default targets).
+InitializeBuildStatus:
+  Creating "tf2_msgs__python.dir\Release\tf2_msgs__python.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  All outputs are up-to-date.
+ClCompile:
+  All outputs are up-to-date.
+Link:
+  All outputs are up-to-date.
+  tf2_msgs__python.vcxproj -> C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\rosidl_generator_py\tf2_msgs\tf2_msgs__python.dll
+FinalizeBuildStatus:
+  Deleting file "tf2_msgs__python.dir\Release\tf2_msgs__python.tlog\unsuccessfulbuild".
+  Touching "tf2_msgs__python.dir\Release\tf2_msgs__python.tlog\tf2_msgs__python.lastbuildstate".
+Done Building Project "C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\tf2_msgs__python.vcxproj" (default targets).
+Project "C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\ALL_BUILD.vcxproj" (3) is building "C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\tf2_msgs__rosidl_typesupport_c__pyext.vcxproj" (15) on node 1 (default targets).
+InitializeBuildStatus:
+  Creating "tf2_msgs__rosidl_typesupport_c__pyext.dir\Release\tf2_msgs.A19AB3CB.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  All outputs are up-to-date.
+ClCompile:
+  All outputs are up-to-date.
+Link:
+  All outputs are up-to-date.
+  tf2_msgs__rosidl_typesupport_c__pyext.vcxproj -> C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\rosidl_generator_py\tf2_msgs\tf2_msgs_s__rosidl_typesupport_c.pyd
+FinalizeBuildStatus:
+  Deleting file "tf2_msgs__rosidl_typesupport_c__pyext.dir\Release\tf2_msgs.A19AB3CB.tlog\unsuccessfulbuild".
+  Touching "tf2_msgs__rosidl_typesupport_c__pyext.dir\Release\tf2_msgs.A19AB3CB.tlog\tf2_msgs__rosidl_typesupport_c__pyext.lastbuildstate".
+Done Building Project "C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\tf2_msgs__rosidl_typesupport_c__pyext.vcxproj" (default targets).
+Project "C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\ALL_BUILD.vcxproj" (3) is building "C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\tf2_msgs__rosidl_typesupport_fastrtps_c__pyext.vcxproj" (16) on node 1 (default targets).
+InitializeBuildStatus:
+  Creating "tf2_msgs__rosidl_typesupport_fastrtps_c__pyext.dir\Release\tf2_msgs.15A8D2B4.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  All outputs are up-to-date.
+ClCompile:
+  All outputs are up-to-date.
+Link:
+  All outputs are up-to-date.
+  tf2_msgs__rosidl_typesupport_fastrtps_c__pyext.vcxproj -> C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\rosidl_generator_py\tf2_msgs\tf2_msgs_s__rosidl_typesupport_fastrtps_c.pyd
+FinalizeBuildStatus:
+  Deleting file "tf2_msgs__rosidl_typesupport_fastrtps_c__pyext.dir\Release\tf2_msgs.15A8D2B4.tlog\unsuccessfulbuild".
+  Touching "tf2_msgs__rosidl_typesupport_fastrtps_c__pyext.dir\Release\tf2_msgs.15A8D2B4.tlog\tf2_msgs__rosidl_typesupport_fastrtps_c__pyext.lastbuildstate".
+Done Building Project "C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\tf2_msgs__rosidl_typesupport_fastrtps_c__pyext.vcxproj" (default targets).
+Project "C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\ALL_BUILD.vcxproj" (3) is building "C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\tf2_msgs__rosidl_typesupport_introspection_c__pyext.vcxproj" (17) on node 1 (default targets).
+InitializeBuildStatus:
+  Creating "tf2_msgs__rosidl_typesupport_introspection_c__pyext.dir\Release\tf2_msgs.89F9B231.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  All outputs are up-to-date.
+ClCompile:
+  All outputs are up-to-date.
+Link:
+  All outputs are up-to-date.
+  tf2_msgs__rosidl_typesupport_introspection_c__pyext.vcxproj -> C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\rosidl_generator_py\tf2_msgs\tf2_msgs_s__rosidl_typesupport_introspection_c.pyd
+FinalizeBuildStatus:
+  Deleting file "tf2_msgs__rosidl_typesupport_introspection_c__pyext.dir\Release\tf2_msgs.89F9B231.tlog\unsuccessfulbuild".
+  Touching "tf2_msgs__rosidl_typesupport_introspection_c__pyext.dir\Release\tf2_msgs.89F9B231.tlog\tf2_msgs__rosidl_typesupport_introspection_c__pyext.lastbuildstate".
+Done Building Project "C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\tf2_msgs__rosidl_typesupport_introspection_c__pyext.vcxproj" (default targets).
+Project "C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\ALL_BUILD.vcxproj" (3) is building "C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\tf2_msgs_matlab.vcxproj" (18) on node 1 (default targets).
+InitializeBuildStatus:
+  Creating "tf2_msgs_matlab.dir\Release\tf2_msgs_matlab.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  All outputs are up-to-date.
+ClCompile:
+  All outputs are up-to-date.
+Link:
+  All outputs are up-to-date.
+  tf2_msgs_matlab.vcxproj -> C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\Release\tf2_msgs_matlab.dll
+FinalizeBuildStatus:
+  Deleting file "tf2_msgs_matlab.dir\Release\tf2_msgs_matlab.tlog\unsuccessfulbuild".
+  Touching "tf2_msgs_matlab.dir\Release\tf2_msgs_matlab.tlog\tf2_msgs_matlab.lastbuildstate".
+Done Building Project "C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\tf2_msgs_matlab.vcxproj" (default targets).
+InitializeBuildStatus:
+  Creating "x64\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  All outputs are up-to-date.
+FinalizeBuildStatus:
+  Deleting file "x64\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+  Touching "x64\Release\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+Done Building Project "C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\ALL_BUILD.vcxproj" (default targets).
+InitializeBuildStatus:
+  Creating "x64\Release\INSTALL\INSTALL.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+PostBuildEvent:
+  setlocal
+  "C:\Program Files\CMake\bin\cmake.exe" -DBUILD_TYPE=Release -P cmake_install.cmake
+  if %errorlevel% neq 0 goto :cmEnd
+  :cmEnd
+  endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+  :cmErrorLevel
+  exit /b %1
+  :cmDone
+  if %errorlevel% neq 0 goto :VCEnd
+  :VCEnd
+  -- Install configuration: "Release"
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/share/ament_index/resource_index/rosidl_interfaces/tf2_msgs
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/lib/tf2_msgs__rosidl_typesupport_c.lib
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/bin/tf2_msgs__rosidl_typesupport_c.dll
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/lib/tf2_msgs__rosidl_typesupport_cpp.lib
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/bin/tf2_msgs__rosidl_typesupport_cpp.dll
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/msg
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/msg/tf2_error__rosidl_typesupport_fastrtps_c.h
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/msg/tf_message__rosidl_typesupport_fastrtps_c.h
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/srv
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/srv/frame_graph__rosidl_typesupport_fastrtps_c.h
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/lib/tf2_msgs__rosidl_typesupport_fastrtps_c.lib
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/bin/tf2_msgs__rosidl_typesupport_fastrtps_c.dll
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/msg
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/msg/rosidl_generator_c__visibility_control.h
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/msg/tf2_error.h
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/msg/tf2_error__functions.c
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/msg/tf2_error__functions.h
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/msg/tf2_error__struct.h
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/msg/tf2_error__type_support.h
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/msg/tf_message.h
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/msg/tf_message__functions.c
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/msg/tf_message__functions.h
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/msg/tf_message__struct.h
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/msg/tf_message__type_support.h
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/srv
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/srv/frame_graph.h
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/srv/frame_graph__functions.c
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/srv/frame_graph__functions.h
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/srv/frame_graph__struct.h
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/srv/frame_graph__type_support.h
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/lib/tf2_msgs__rosidl_generator_c.lib
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/bin/tf2_msgs__rosidl_generator_c.dll
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/msg
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/msg/dds_fastrtps
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/msg/tf2_error__rosidl_typesupport_fastrtps_cpp.hpp
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/msg/tf_message__rosidl_typesupport_fastrtps_cpp.hpp
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/srv
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/srv/dds_fastrtps
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/srv/frame_graph__rosidl_typesupport_fastrtps_cpp.hpp
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/lib/tf2_msgs__rosidl_typesupport_fastrtps_cpp.lib
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/bin/tf2_msgs__rosidl_typesupport_fastrtps_cpp.dll
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/msg
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/msg/tf2_error.hpp
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/msg/tf2_error__struct.hpp
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/msg/tf2_error__traits.hpp
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/msg/tf_message.hpp
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/msg/tf_message__struct.hpp
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/msg/tf_message__traits.hpp
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/srv
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/srv/frame_graph.hpp
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/srv/frame_graph__struct.hpp
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/srv/frame_graph__traits.hpp
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/msg
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/msg/tf2_error__rosidl_typesupport_introspection_c.h
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/msg/tf2_error__type_support.c
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/msg/tf_message__rosidl_typesupport_introspection_c.h
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/msg/tf_message__type_support.c
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/srv
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/srv/frame_graph__rosidl_typesupport_introspection_c.h
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/srv/frame_graph__type_support.c
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/lib/tf2_msgs__rosidl_typesupport_introspection_c.lib
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/bin/tf2_msgs__rosidl_typesupport_introspection_c.dll
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/msg
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/msg/tf2_error__rosidl_typesupport_introspection_cpp.hpp
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/msg/tf2_error__type_support.cpp
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/msg/tf_message__rosidl_typesupport_introspection_cpp.hpp
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/msg/tf_message__type_support.cpp
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/srv
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/srv/frame_graph__rosidl_typesupport_introspection_cpp.hpp
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/srv/frame_graph__type_support.cpp
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/lib/tf2_msgs__rosidl_typesupport_introspection_cpp.lib
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/bin/tf2_msgs__rosidl_typesupport_introspection_cpp.dll
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/share/tf2_msgs/environment/pythonpath.bat
+  -- Installing: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/Lib/site-packages/tf2_msgs/__init__.py
+  Compiling 'C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/Lib/site-packages/tf2_msgs/__init__.py'...
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/Lib/site-packages/tf2_msgs/msg
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/Lib/site-packages/tf2_msgs/msg/_tf2_error.py
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/Lib/site-packages/tf2_msgs/msg/_tf2_error_s.c
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/Lib/site-packages/tf2_msgs/msg/_tf_message.py
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/Lib/site-packages/tf2_msgs/msg/_tf_message_s.c
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/Lib/site-packages/tf2_msgs/msg/__init__.py
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/Lib/site-packages/tf2_msgs/srv
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/Lib/site-packages/tf2_msgs/srv/_frame_graph.py
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/Lib/site-packages/tf2_msgs/srv/_frame_graph_s.c
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/Lib/site-packages/tf2_msgs/srv/__init__.py
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/Lib/site-packages/tf2_msgs/tf2_msgs_s__rosidl_typesupport_c.lib
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/Lib/site-packages/tf2_msgs/tf2_msgs_s__rosidl_typesupport_c.pyd
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/Lib/site-packages/tf2_msgs/tf2_msgs_s__rosidl_typesupport_fastrtps_c.lib
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/Lib/site-packages/tf2_msgs/tf2_msgs_s__rosidl_typesupport_fastrtps_c.pyd
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/Lib/site-packages/tf2_msgs/tf2_msgs_s__rosidl_typesupport_introspection_c.lib
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/Lib/site-packages/tf2_msgs/tf2_msgs_s__rosidl_typesupport_introspection_c.pyd
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/lib/tf2_msgs__python.lib
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/bin/tf2_msgs__python.dll
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/share/tf2_msgs/msg/TF2Error.idl
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/share/tf2_msgs/msg/TFMessage.idl
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/share/tf2_msgs/srv/FrameGraph.idl
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/share/tf2_msgs/msg/TF2Error.msg
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/share/tf2_msgs/msg/TFMessage.msg
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/share/tf2_msgs/srv/FrameGraph.srv
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/share/tf2_msgs/srv/FrameGraph_Request.msg
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/share/tf2_msgs/srv/FrameGraph_Response.msg
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/include/tf2_msgs/visibility_control.h
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/lib/tf2_msgs_matlab.lib
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/bin/tf2_msgs_matlab.dll
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/m/
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/m//+ros
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/m//+ros/+internal
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/m//+ros/+internal/+ros2
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/m//+ros/+internal/+ros2/+custommessages
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/m//+ros/+internal/+ros2/+custommessages/+tf2_msgs
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/m//+ros/+internal/+ros2/+custommessages/+tf2_msgs/frameGraphRequest.m
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/m//+ros/+internal/+ros2/+custommessages/+tf2_msgs/frameGraphResponse.m
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/m//+ros/+internal/+ros2/+custommessages/+tf2_msgs/tF2Error.m
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/m//+ros/+internal/+ros2/+custommessages/+tf2_msgs/tf2_msgs_msg_TF2Error_1To2_Converter.m
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/m//+ros/+internal/+ros2/+custommessages/+tf2_msgs/tf2_msgs_msg_TF2Error_2To1_Converter.m
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/m//+ros/+internal/+ros2/+custommessages/+tf2_msgs/tf2_msgs_msg_TFMessage_1To2_Converter.m
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/m//+ros/+internal/+ros2/+custommessages/+tf2_msgs/tf2_msgs_msg_TFMessage_2To1_Converter.m
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/m//+ros/+internal/+ros2/+custommessages/+tf2_msgs/tFMessage.m
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/share/ament_index/resource_index/package_run_dependencies/tf2_msgs
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/share/ament_index/resource_index/parent_prefix_path/tf2_msgs
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/share/tf2_msgs/environment/ament_prefix_path.bat
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/share/tf2_msgs/environment/path.bat
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/share/tf2_msgs/local_setup.bat
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/share/ament_index/resource_index/packages/tf2_msgs
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/share/tf2_msgs/cmake/rosidl_cmake-extras.cmake
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/share/tf2_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/share/tf2_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/share/tf2_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/share/tf2_msgs/cmake/tf2_msgsConfig.cmake
+  -- Up-to-date: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/share/tf2_msgs/cmake/tf2_msgsConfig-version.cmake
+  -- Installing: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install/share/tf2_msgs/package.xml
+FinalizeBuildStatus:
+  Deleting file "x64\Release\INSTALL\INSTALL.tlog\unsuccessfulbuild".
+  Touching "x64\Release\INSTALL\INSTALL.tlog\INSTALL.lastbuildstate".
+Done Building Project "C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\INSTALL.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.51
+Invoked command in 'None' returned '0': CommonProgramFiles=%CommonProgramFiles%
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files ProgramFiles=%ProgramFiles%
+ProgramFiles(x86)=C:\Program Files (x86) C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\\MSBuild\Current\Bin\msbuild.EXE /p:Configuration=Release C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs\INSTALL.vcxproj

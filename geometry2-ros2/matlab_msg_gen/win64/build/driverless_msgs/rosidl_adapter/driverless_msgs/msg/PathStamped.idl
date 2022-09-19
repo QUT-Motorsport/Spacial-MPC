@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from driverless_msgs/msg\PathStamped.msg
+// generated code does not contain a copyright notice
+
+#include "driverless_msgs/msg/PathPoint.idl"
+#include "std_msgs/msg/Header.idl"
+
+module driverless_msgs {
+  module msg {
+    struct PathStamped {
+      std_msgs::msg::Header header;
+
+      sequence<driverless_msgs::msg::PathPoint> path;
+    };
+  };
+};

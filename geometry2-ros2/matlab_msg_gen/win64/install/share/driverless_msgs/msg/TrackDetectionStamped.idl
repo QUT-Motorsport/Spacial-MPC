@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from driverless_msgs/msg\TrackDetectionStamped.msg
+// generated code does not contain a copyright notice
+
+#include "driverless_msgs/msg/ConeWithCovariance.idl"
+#include "std_msgs/msg/Header.idl"
+
+module driverless_msgs {
+  module msg {
+    struct TrackDetectionStamped {
+      std_msgs::msg::Header header;
+
+      sequence<driverless_msgs::msg::ConeWithCovariance> cones;
+    };
+  };
+};

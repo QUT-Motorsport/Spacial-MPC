@@ -1,0 +1,10 @@
+^C:\USERS\PLASMINFORGE\DOCUMENTS\MATLAB_THESIS\GEOMETRY2-ROS2\MATLAB_MSG_GEN\WIN64\BUILD\TF2_MSGS\CMAKEFILES\EF490DA77E821E597AB2397FBEBC8602\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/src/tf2_msgs -BC:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/build/tf2_msgs --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/build/tf2_msgs/tf2_msgs.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
