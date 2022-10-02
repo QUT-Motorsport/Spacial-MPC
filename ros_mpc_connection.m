@@ -31,6 +31,7 @@ for i = 0:size(track_x, 2)-1
 end
 
 
+
 %% MPC steup
 input_UB = [ones(1, InputHorizon)*MAX_STEETING_RATE; ones(1, InputHorizon)*MAX_ACCELERATION; ones(1, InputHorizon)];
 input_LB = [-ones(1, InputHorizon)*MAX_STEETING_RATE; -ones(1, InputHorizon)*MAX_ACCELERATION; zeros(1, InputHorizon)];

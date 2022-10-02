@@ -7,10 +7,10 @@ clc
 % in those distance steps
 
 % step
-Ts = 0.2;
+Ts = 1;
 
 % get track
-s = linspace(0, 50, 10000)';
+s = linspace(0, 150, 10000)';
 [HDtrackx, HDtracky] = track(s, 0);
 HDtrack = [HDtrackx, HDtracky];
 t1 = HDtrack(1:end-1, :);
@@ -82,8 +82,8 @@ track_table(end, 6) = track_table(end-1, 6);
 
 %% MPC setup
 PredictionHorizon = 10;
-InputHorizon = 3;
-X_init = [0.1 0 0 0.1 0 0 0]'; % ey, etheta, otheta_dot, Vx, Vy, delta, time
+InputHorizon = 4;
+X_init = [-0.0600   -0.0055   -0.1325    2.0000   -0.1115   -0.1002    3.1574]';%[0.1 0 0 0.1 0 0 0]'; % ey, etheta, otheta_dot, Vx, Vy, delta, time
 num_states = length(X_init);
 
 input_UB = [ones(1, InputHorizon)*pi/4/2; ones(1, InputHorizon)*1; ones(1, InputHorizon)]; % steering rate (rad/s), accel (m/s/s), constraint violations (0 to 1 for no volation to max violation)
@@ -91,7 +91,7 @@ input_LB = [-ones(1, InputHorizon)*pi/4/2; -ones(1, InputHorizon)*1; zeros(1, In
 
 %% sim
 l = size(track_table, 1) - 5 - PredictionHorizon;  % simulation steps - simulate to end of track
-opt = optimoptions('fmincon','Algorithm','active-set', 'MaxFunctionEvaluations', 1e10, 'Display', 'iter-detailed');%, 'SpecifyObjectiveGradient',true);
+opt = optimoptions('fmincon','Algorithm','active-set', 'MaxFunctionEvaluations', 1e13, 'MaxIterations', 1e4, 'Display', 'none');%, 'SpecifyObjectiveGradient',true);
 
 states = zeros(l+1, num_states); % record states
 inputs = zeros(l, 3, InputHorizon); % record inputs
@@ -101,11 +101,11 @@ pos = zeros(l, 2); % record x-y of nearest point on track (used in coordintate c
 % simulate first step
 states(1, :) = X_init;
 U = zeros(2, InputHorizon);
-[f, fnonlcons] = getnp(states(1, :), track_table(1:1+PredictionHorizon, :), PredictionHorizon, InputHorizon, Ts);
+[f, fnonlcons] = getnp(states(1, :)', track_table(1:1+PredictionHorizon, :), PredictionHorizon, InputHorizon, Ts);
 [U, C] = fmincon(f, zeros([3, InputHorizon]),[],[],[],[],input_LB,input_UB, fnonlcons, opt);
 cost(1) = C;
 inputs(1, :, :) = U;
-disp(inputs(1, :, 1))
+U=U
 fX = stateChangeBig(states(1, :)', U, track_table(1:1+PredictionHorizon, :), Ts);
 states(2, :) = fX(:, 1)';
 % convert the first steps from track coordinates to world coordintates
@@ -126,24 +126,28 @@ for i = 2:l
     disp(i) % display sim step number
 
     % simulate
-%     tic()
+    tic()
     U(:, 1:end-1) = squeeze(inputs(i-1, :, 2:end));%zeros(2, InputHorizon);
     U(:, end) = U(:, end-1);
-    [f, fnonlcons] = getnp(states(i, :), track_table(i:i+PredictionHorizon, :), PredictionHorizon, InputHorizon, Ts);
+    [f, fnonlcons] = getnp(states(i, :)', track_table(i:i+PredictionHorizon, :), PredictionHorizon, InputHorizon, Ts);
     [U, C] = fmincon(f, U,[],[],[],[],input_LB,input_UB, fnonlcons, opt);
     cost(i) = C;
 %     U(1, 1) = cos(i*Ts*2*pi*10)*0.03;
 %     U(1, 1) = states(i, 1)*-0.1 - states(i, 6)*1 - states(i, 2)*1;
     inputs(i, :, :) = U;
-%     toc()
-    U=U
+    toc()
+%     U=U
+    con = fnonlcons(U);
 %     tic()
 %     a = knState(states(i, 1:end-1), inputs(i, :, 1), track_table(i, :), Ts);
 %     toc()
 
 %     tic()
-
+    disp('---------------')
     fX = stateChangeBig(states(i, :)', U, track_table(i:i+PredictionHorizon, :), Ts);
+%     eys = fX(1, :)
+%     Rs = 1./track_table(i+1:i+PredictionHorizon, 4)'
+%     con = con(end-9:end)'
 %     states(i+1, :) = stateChange(states(i, :)', inputs(i, :, 1), track_table(i, :), Ts);
     states(i+1, :) = fX(:, 1)';
 %     toc()
