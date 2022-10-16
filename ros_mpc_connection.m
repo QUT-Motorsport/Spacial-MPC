@@ -1,20 +1,20 @@
 clc
 %% parameters
-Ts = 0.1;
-PredictionHorizon = 10;
+Ts = 1;
+PredictionHorizon = 5;
 InputHorizon = 3;
 
-MAX_STEETING_RATE = pi/4/1.5;
+MAX_STEETING_RATE = pi/4/2;
 MAX_STEETING_ANGLE = 30*pi/180;
 MAX_ACCELERATION = 1;
 
 %% ROS Setup
-machine_ip = '192.168.68.117';
+machine_ip = '172.31.32.1';
 setenv('ROS_IP',machine_ip);
 
 node = ros2node("/matlab");
 % pause(2) % wait for ros connection
-% ros2 topic list
+ros2 topic list
 state_sub = ros2subscriber(node, 'mpc/inputs/state', 'Reliability','besteffort');
 track_sub = ros2subscriber(node, 'mpc/inputs/track', 'Reliability','besteffort');
 control_pub = ros2publisher(node, 'driving_command');
@@ -37,7 +37,7 @@ input_UB = [ones(1, InputHorizon)*MAX_STEETING_RATE; ones(1, InputHorizon)*MAX_A
 input_LB = [-ones(1, InputHorizon)*MAX_STEETING_RATE; -ones(1, InputHorizon)*MAX_ACCELERATION; zeros(1, InputHorizon)];
 
 end_s = track.path(end).s - (PredictionHorizon+1)*Ts; % no laps just yet
-opt = optimoptions('fmincon','Algorithm','active-set', 'MaxFunctionEvaluations', 1e3, 'Display', 'iter-detailed', 'UseParallel', true);
+opt = optimoptions('fmincon','Algorithm','active-set', 'Display', 'iter-detailed', 'MaxFunctionEvaluations', 1e3);
 
 %% run
 receive(state_sub, 5); % first state can give bad data
@@ -94,7 +94,7 @@ while(true)
 
     tic()
     % conversion of data to matching format
-    state_vec = [current_state.ey; current_state.etheta; current_state.otheta_dot; max(current_state.vx, 0.02); current_state.vy; current_state.d; 0];% double(current_state.t.sec)+double(current_state.t.nanosec)*10e-9];
+    state_vec = [current_state.ey; current_state.etheta; current_state.otheta_dot; max(current_state.vx, 0.5); current_state.vy; current_state.d; 0];% double(current_state.t.sec)+double(current_state.t.nanosec)*10e-9];
     track_vec = zeros([PredictionHorizon+1, 6]);
     track_j = track_i;
     i = 1;
@@ -110,7 +110,7 @@ while(true)
     
     U(:, 1:end-1) = U(:, 2:end);
     [f, fcons] = getnp(state_vec, track_vec, PredictionHorizon, InputHorizon, Ts);
-    [U, C] = fmincon(f, U,[],[],[],[],input_LB,input_UB, fcons, opt);
+    [U, C] = fmincon(f, [0 0 0; 0 0 0; 1 1 1],[],[],[],[],input_LB,input_UB, fcons, opt);
     toc()
     disp(U)
     
@@ -119,10 +119,13 @@ while(true)
     
     % send control message
     control_msg = ros2message(control_pub);
-    control_msg.steering_angle = single(X_pred(end-1, 1)*-pi/MAX_STEETING_ANGLE);
-    control_msg.acceleration = single(U(2, 1))
-    send(control_pub, control_msg);
-    send(control_pub, control_msg);
+    control_msg.steering_angle = max(min(single(X_pred(end-1, 1)*(-pi/MAX_STEETING_ANGLE)), 0.5), -0.5);
+    if(current_state.vx < 0.3)
+        control_msg.acceleration = single(0.01)
+    else
+        control_msg.acceleration = max(min(single(U(2, 1)/100), 0.1), -0.1)
+    end
+
     send(control_pub, control_msg);
 
     % draw track after mpc update
@@ -145,6 +148,15 @@ while(true)
     r = max(PredictionHorizon*Ts*2, 5);
     xlim([car_pos(1)-r,  car_pos(1)+r])
     ylim([car_pos(2)-r,  car_pos(2)+r])
+    
+    if(max(fcons(U)) > 1.000000e-06) 
+        cc = fcons(U);
+        [mm, kk] = max(fcons(U))
+        if(kk <=5)
+            continue
+        end
+        disp("fuck u fmincon")
+    end
     
 end
 

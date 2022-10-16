@@ -1,0 +1,20 @@
+^C:\USERS\PLASMINFORGE\DOCUMENTS\SPACIAL-MPC\GEOMETRY2-ROS2\MATLAB_MSG_GEN\WIN64\BUILD\ACKERMANN_MSGS\CMAKEFILES\E186B4F67C235D3CB2E6E87D74B59B2E\ACKERMANN_DRIVE__TYPE_SUPPORT.CPP.RULE
+setlocal
+C:\Users\PLASMINFORGE\AppData\Roaming\MathWorks\MATLAB\R2021b\ros2\win64\venv\Scripts\python.exe "C:/Program Files/MATLAB/R2021b/sys/ros2/win64/ros2/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp" --generator-arguments-file C:/Users/PLASMINFORGE/Documents/Spacial-MPC/geometry2-ros2/matlab_msg_gen/win64/build/ackermann_msgs/rosidl_typesupport_fastrtps_cpp__arguments.json
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PLASMINFORGE\DOCUMENTS\SPACIAL-MPC\GEOMETRY2-ROS2\MATLAB_MSG_GEN\WIN64\SRC\ACKERMANN_MSGS\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/PLASMINFORGE/Documents/Spacial-MPC/geometry2-ros2/matlab_msg_gen/win64/src/ackermann_msgs -BC:/Users/PLASMINFORGE/Documents/Spacial-MPC/geometry2-ros2/matlab_msg_gen/win64/build/ackermann_msgs --check-stamp-file C:/Users/PLASMINFORGE/Documents/Spacial-MPC/geometry2-ros2/matlab_msg_gen/win64/build/ackermann_msgs/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

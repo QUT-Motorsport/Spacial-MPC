@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/build/ackermann_msgs/ackermann_msgs__py
+# Install script for directory: C:/Users/PLASMINFORGE/Documents/Spacial-MPC/geometry2-ros2/matlab_msg_gen/win64/build/ackermann_msgs/ackermann_msgs__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/install")
+  set(CMAKE_INSTALL_PREFIX "C:/Users/PLASMINFORGE/Documents/Spacial-MPC/geometry2-ros2/matlab_msg_gen/win64/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

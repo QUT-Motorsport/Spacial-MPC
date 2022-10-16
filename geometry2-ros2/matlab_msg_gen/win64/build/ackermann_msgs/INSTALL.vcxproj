@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{8B939A8D-BB54-3440-9FF3-3847DD9D830F}</ProjectGuid>
+    <ProjectGuid>{79B733C6-ACED-3FE8-815A-71FB4D6AB574}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -125,7 +125,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\ackermann_msgs\CMakeFiles\7522e4a613eff3742b0f87f5dbe8b86e\INSTALL_force.rule">
+    <CustomBuild Include="C:\Users\PLASMINFORGE\Documents\Spacial-MPC\geometry2-ros2\matlab_msg_gen\win64\build\ackermann_msgs\CMakeFiles\6c7501c407dd877142806b55c0b22214\INSTALL_force.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 cd .
@@ -137,7 +137,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\ackermann_msgs\CMakeFiles\INSTALL_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\PLASMINFORGE\Documents\Spacial-MPC\geometry2-ros2\matlab_msg_gen\win64\build\ackermann_msgs\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"> </Message>
@@ -151,7 +151,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\ackermann_msgs\CMakeFiles\INSTALL_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\PLASMINFORGE\Documents\Spacial-MPC\geometry2-ros2\matlab_msg_gen\win64\build\ackermann_msgs\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"> </Message>
@@ -165,7 +165,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\ackermann_msgs\CMakeFiles\INSTALL_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\PLASMINFORGE\Documents\Spacial-MPC\geometry2-ros2\matlab_msg_gen\win64\build\ackermann_msgs\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"> </Message>
@@ -179,20 +179,20 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\ackermann_msgs\CMakeFiles\INSTALL_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\PLASMINFORGE\Documents\Spacial-MPC\geometry2-ros2\matlab_msg_gen\win64\build\ackermann_msgs\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\ackermann_msgs\ZERO_CHECK.vcxproj">
-      <Project>{C60917EB-AFAB-3886-90C9-E807C0A8DFDE}</Project>
+    <ProjectReference Include="C:\Users\PLASMINFORGE\Documents\Spacial-MPC\geometry2-ros2\matlab_msg_gen\win64\build\ackermann_msgs\ZERO_CHECK.vcxproj">
+      <Project>{B3393E49-398A-33F9-BF81-07341A7F6C9B}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\ackermann_msgs\ALL_BUILD.vcxproj">
-      <Project>{ACFB7FB6-314C-30A8-AB5D-73B76C7E8540}</Project>
+    <ProjectReference Include="C:\Users\PLASMINFORGE\Documents\Spacial-MPC\geometry2-ros2\matlab_msg_gen\win64\build\ackermann_msgs\ALL_BUILD.vcxproj">
+      <Project>{2D428F8A-FF87-3E5D-B466-0F59CA78B48C}</Project>
       <Name>ALL_BUILD</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

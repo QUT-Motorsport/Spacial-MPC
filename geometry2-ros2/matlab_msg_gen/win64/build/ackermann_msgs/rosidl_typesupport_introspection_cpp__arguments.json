@@ -1,9 +1,9 @@
 {
   "package_name": "ackermann_msgs",
-  "output_dir": "C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/build/ackermann_msgs/rosidl_typesupport_introspection_cpp/ackermann_msgs",
+  "output_dir": "C:/Users/PLASMINFORGE/Documents/Spacial-MPC/geometry2-ros2/matlab_msg_gen/win64/build/ackermann_msgs/rosidl_typesupport_introspection_cpp/ackermann_msgs",
   "template_dir": "C:/Program Files/MATLAB/R2021b/sys/ros2/win64/ros2/share/rosidl_typesupport_introspection_cpp/resource",
   "idl_tuples": [
-    "C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/build/ackermann_msgs/rosidl_adapter/ackermann_msgs:msg/AckermannDrive.idl"
+    "C:/Users/PLASMINFORGE/Documents/Spacial-MPC/geometry2-ros2/matlab_msg_gen/win64/build/ackermann_msgs/rosidl_adapter/ackermann_msgs:msg/AckermannDrive.idl"
   ],
   "target_dependencies": [
     "C:/Program Files/MATLAB/R2021b/sys/ros2/win64/ros2/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp",
@@ -14,6 +14,6 @@
     "C:/Program Files/MATLAB/R2021b/sys/ros2/win64/ros2/share/rosidl_typesupport_introspection_cpp/resource/msg__type_support.cpp.em",
     "C:/Program Files/MATLAB/R2021b/sys/ros2/win64/ros2/share/rosidl_typesupport_introspection_cpp/resource/srv__rosidl_typesupport_introspection_cpp.hpp.em",
     "C:/Program Files/MATLAB/R2021b/sys/ros2/win64/ros2/share/rosidl_typesupport_introspection_cpp/resource/srv__type_support.cpp.em",
-    "C:/Users/PLASMINFORGE/Documents/MATLAB_Thesis/geometry2-ros2/matlab_msg_gen/win64/build/ackermann_msgs/rosidl_adapter/ackermann_msgs/msg/AckermannDrive.idl"
+    "C:/Users/PLASMINFORGE/Documents/Spacial-MPC/geometry2-ros2/matlab_msg_gen/win64/build/ackermann_msgs/rosidl_adapter/ackermann_msgs/msg/AckermannDrive.idl"
   ]
 }

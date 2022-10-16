@@ -3,8 +3,8 @@ function [X_dash, debug] = dbike_model(X, U, track)
     m = 220; % mass (kg)
     I = 140; % Z axis moment of initia (kg*m^2)
     Wheelbase = 1.53;
-    lf = Wheelbase*0.45; % dist from COG to front wheel
-    lr = Wheelbase*0.55; % dist from COG to rear wheel
+    lf = Wheelbase*0.5; % dist from COG to front wheel
+    lr = Wheelbase*0.5; % dist from COG to rear wheel
     cb = 21934*2; % force vs slip angle for typers in linear region N/rad
     
     %% track variables
@@ -27,11 +27,11 @@ function [X_dash, debug] = dbike_model(X, U, track)
     t = X(7); % time
 
     %% slip and tyre forces
-    Zf = atan2(Vy+lf*(otheta_dot), Vx); % angle of velocity of front wheel relative to front of car
+    Zf = Vy+lf*(otheta_dot)/ Vx; % angle of velocity of front wheel relative to front of car
     Bf = delta-Zf; % slip angle of front wheel
     Ff = cb*Bf; % force of front wheel
     
-    Zr = atan2(Vy-lr*(otheta_dot), Vx); % angle of velocity of front wheel relative to front of car
+    Zr = Vy-lr*(otheta_dot)/ Vx; % angle of velocity of front wheel relative to front of car
     Br = -Zr; % slip angle of front wheel
     Fr = cb*Br; % force of front wheel
 
@@ -62,8 +62,9 @@ function [X_dash, debug] = dbike_model(X, U, track)
     X_dash(7) = 1/s_dot; % time - dt/ds - difference in time with respect to centerline distance
 
     
-    debug = zeros(1, 2);
+    debug = zeros(1, 3);
     debug(1) = Ff;
     debug(2) = Fr;
+    debug(3) = K;
 
 end

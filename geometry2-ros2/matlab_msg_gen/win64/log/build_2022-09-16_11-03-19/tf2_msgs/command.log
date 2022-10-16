@@ -1,3 +1,0 @@
-Invoking command in 'C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs': CommonProgramFiles=%CommonProgramFiles%
-CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files ProgramFiles=%ProgramFiles%
-ProgramFiles(x86)=C:\Program Files (x86) C:\Program Files\CMake\bin\cmake.EXE C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\src\tf2_msgs -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DCMAKE_CXX_COMPILER=cl.exe -DCMAKE_C_COMPILER=cl.exe -DCMAKE_LINKER=link.exe -DMSVC_TOOLSET_VERSION=141 -DCMAKE_CXX_FLAGS_RELEASE=/MD /Od /Ob2 /DNDEBUG -DCMAKE_INSTALL_PREFIX=C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\install -G Visual Studio 16 2019

@@ -1,7 +1,0 @@
-Invoking command in 'C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\build\tf2_msgs': CommonProgramFiles=%CommonProgramFiles%
-CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files ProgramFiles=%ProgramFiles%
-ProgramFiles(x86)=C:\Program Files (x86) C:\Program Files\CMake\bin\cmake.EXE C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\src\tf2_msgs -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DCMAKE_CXX_COMPILER=cl.exe -DCMAKE_C_COMPILER=cl.exe -DCMAKE_LINKER=link.exe -DMSVC_TOOLSET_VERSION=141 -DCMAKE_CXX_FLAGS_RELEASE=/MD /Od /Ob2 /DNDEBUG -DCMAKE_INSTALL_PREFIX=C:\Users\PLASMINFORGE\Documents\MATLAB_Thesis\geometry2-ros2\matlab_msg_gen\win64\install -G Visual Studio 16 2019
--- Selecting Windows SDK version 10.0.19041.0 to target Windows 10.0.19044.
--- Found ament_cmake: 0.7.3 (C:/Program Files/MATLAB/R2021b/sys/ros2/win64/ros2/share/ament_cmake/cmake)
--- Found PythonInterp: C:/Users/PLASMINFORGE/AppData/Roaming/MathWorks/MATLAB/R2021b/ros2/win64/venv/Scripts/python.exe (found suitable version "3.7.9", minimum required is "3") 
--- Using PYTHON_EXECUTABLE: C:/Users/PLASMINFORGE/AppData/Roaming/MathWorks/MATLAB/R2021b/ros2/win64/venv/Scripts/python.exe
