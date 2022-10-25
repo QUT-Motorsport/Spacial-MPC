@@ -81,8 +81,8 @@ track_table(end, 6) = track_table(end-1, 6);
 
 
 %% MPC setup
-PredictionHorizon = 10;
-InputHorizon = 3;
+PredictionHorizon = 8;
+InputHorizon = 4;
 X_init = [-0.0600   -0.0055   -0.1325    2.0000   -0.1115   -0.1002    3.1574]';%[0.1 0 0 0.1 0 0 0]'; % ey, etheta, otheta_dot, Vx, Vy, delta, time
 num_states = length(X_init);
 
@@ -136,7 +136,7 @@ for i = 2:l
 %     U(1, 1) = states(i, 1)*-0.1 - states(i, 6)*1 - states(i, 2)*1;
     inputs(i, :, :) = U;
     toc()
-%     U=U
+    U=U
     con = fnonlcons(U);
 %     tic()
 %     a = knState(states(i, 1:end-1), inputs(i, :, 1), track_table(i, :), Ts);

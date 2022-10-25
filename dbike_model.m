@@ -27,11 +27,11 @@ function [X_dash, debug] = dbike_model(X, U, track)
     t = X(7); % time
 
     %% slip and tyre forces
-    Zf = Vy+lf*(otheta_dot)/ Vx; % angle of velocity of front wheel relative to front of car
+    Zf = (Vy+lf*(otheta_dot))/ Vx; % angle of velocity of front wheel relative to front of car
     Bf = delta-Zf; % slip angle of front wheel
     Ff = cb*Bf; % force of front wheel
     
-    Zr = Vy-lr*(otheta_dot)/ Vx; % angle of velocity of front wheel relative to front of car
+    Zr = (Vy-lr*(otheta_dot))/ Vx; % angle of velocity of front wheel relative to front of car
     Br = -Zr; % slip angle of front wheel
     Fr = cb*Br; % force of front wheel
 
@@ -46,10 +46,7 @@ function [X_dash, debug] = dbike_model(X, U, track)
     %% S stuff
     s_dot = (Vx*cos(etheta) - Vy*sin(etheta))/(1-ey*K); % ds/dt - differnece in centerline distance with respect to time
 
-%     if(s_dot <= 0)
-%         disp("distance crime")
-%     end
-    
+
     %% next values
     X_dash = zeros([7, 1]);
 

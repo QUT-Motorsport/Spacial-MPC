@@ -5,10 +5,10 @@ function [X_dash, debug] = carODE(X, U, s, track, Ts)
     i = min(floor(s/Ts)+1, Ph);
     j = min(i, Ih);
     
-    t = s-Ts*i;
+    t = s-Ts*(i-1);
     t = t/Ts;
     track_row = track(i, :)*(1-t) + track(i+1, :)*t;
     
     [X_dash, debug] = dbike_model(X, U(:, j), track_row);
-    debug = [debug U(:, j)'];
+    debug = [debug U(:, j)' track_row(4)];
 end

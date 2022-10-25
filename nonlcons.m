@@ -48,9 +48,9 @@ function [c, ceq] = nonlcons(U, X0, track, prediction_horizon, input_horizon, Ts
         return
     end
     
-    c(1:Ph) = X(1, :)'.^2 - 1.5^2 - (ECR_eymax*epsil).^2; % |ey| < 1.5
+    c(1:Ph) = X(1, :)'.^2 - 1^2 - (ECR_eymax*epsil).^2; % |ey| < 1.5
     c(Ph+1:Ph*2) = 0.1 - X(4, :)' - ECR_vmin*epsil; % v > 0.1
-    c(Ph*2+1:Ph*3) = X(4, :)' - 5 - ECR_vmax*epsil; % v < 5
+    c(Ph*2+1:Ph*3) = X(4, :)' - 2 - ECR_vmax*epsil; % v < 5
     c(Ph*3+1:Ph*4) = X(6, :)'.^2 - (0.2)^2 - (ECR_dmax*epsil).^2; % |d| < 0.2
     c(Ph*4+1:Ph*5) = 0.1 - (X(4, :)'.*cos(X(2, :)') - X(5, :)'.*sin(X(2, :)')) - ECR_sdotmin*epsil; % s_dot > 0.1
 %     c(Ph*5+1:Ph*6) = X(2, :)'.^2 - (pi/4)^2 - (ECR_ethetamax*epsil).^2; % |etheta| < pi/4

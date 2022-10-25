@@ -12,7 +12,7 @@ function X_next = stateChangeBig(X, U, track, Ts)
     X_next(:, 1) = X;
     max_ts = 0.01;
     min_ts = 0.001;
-    xxx = zeros([Ph*Ts/max_ts+1, 7 + 2 + 1 + 3]);
+    xxx = zeros([Ph*Ts/max_ts+1, 7 + 2 + 1 + 3+1]);
     k = 1;
     t = 0;
     for i = 1:Ph
@@ -20,16 +20,19 @@ function X_next = stateChangeBig(X, U, track, Ts)
         xxx(k, 1:7) = x';
         while t < i*Ts
             [diff, forces] = ode(t, x);
-            ts = min(max_ts, 0.003*1/diff(7));
+            ts = min(max_ts, 0.005/diff(7));
             ts = max(min_ts, ts);
             ts = min(ts, i*Ts-t);
             if(ts < max_ts && t+ts ~= i*Ts)
                 ts = ts;
             end
-            xxx(k, 8:13) = forces;
+            xxx(k, 8:14) = forces;
             xxx(k, 13) = diff(7)*ts;
             k = k+1;
             x = x + diff*ts;
+            if(x(4) < 1)
+                x(4) = 1;
+            end
             t = min(t + ts, i*Ts);
 
             if(t < 0)
@@ -51,20 +54,28 @@ function X_next = stateChangeBig(X, U, track, Ts)
         X_next(:, i+1) = x;%X_next(:, i) + ode(Ts*(i-1), X_next(:, i))*Ts;
 
         [~, forces] = ode(t, x);
-        xxx(k, 8:13) = forces;
+        xxx(k, 8:14) = forces;
             xxx(k, 13) = diff(7)*ts;  
         k = k+1;
-% 
-% 
+
+
 %         figure(2)
 %         cla
-%         plot(xxx(1:k-1, [3 4 5 6 13]))% 10 11 12]))
-%         legend('odtheta', 'vx', 'vy', 'd', 'tdiff');%, 'K', 'dd', 'dv')
+%         plot(xxx(1:k-1, [13]))% 10 11 12]))
+%         plot(xxx(1:k-1, [3, 4, 5, 6, 13]))% 10 11 12]))
+% %         legend('odtheta', 'vx', 'vy', 'd', 'tdiff');%, 'K', 'dd', 'dv')
+% %         legend('tdiff');%, 'K', 'dd', 'dv')
+%         ylim([-1 2])
 % 
 %         figure(3)
 %         cla
 %         plot(xxx(1:k-1, [8 9 13]))
 %         legend('ff', 'fr', 'tdiff')
+% 
+%         figure(4)
+%         cla
+%         plot(xxx(1:k-1, [14]))
+%         legend('K')
 
     
     end

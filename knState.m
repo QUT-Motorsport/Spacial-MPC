@@ -7,7 +7,7 @@ function X_next = knState(X, U, track, Ts)
 
     % constants relating to physical aspects of the car
     C1 = 0.5; % midpoint of car
-    C2 = 1/2; % length of car
+    C2 = 1; % length of car
     
     % time deriavatives 
     K = track(4); % track curvature
