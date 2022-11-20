@@ -1,5 +1,8 @@
-function [x,y] = track(s, s0)
-%     s = s ;
-    x =  s;%cos(s*2*pi/30).*4.*(s/10+3);%sin(s*2*pi/30)*5;%sin(s);%(max(s)-s+ s0).*cos(s);%
-    y = sin(s*2*pi/40).*5;%s;%s*0;%exp(s/3-4);%1-cos(s);%e(max(s)-s+ s0).*sin(s);%s*0.5+1;%
+function [trackXY] = track()
+    s = linspace(0, 150, 10000)';
+    s0 = 0;
+
+    x =  s;
+    y = sin(s*2*pi/40).*5;
+    trackXY = [x y];
 end
