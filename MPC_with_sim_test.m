@@ -1,12 +1,10 @@
 clc
 %% parameters
 Ts = 1;
-PredictionHorizon = 5;
-InputHorizon = 3;
+PredictionHorizon = 6;
+InputHorizon = 2;
 
-MAX_STEETING_RATE = pi/4/2;
 MAX_STEETING_ANGLE = 30*pi/180;
-MAX_ACCELERATION = 1;
 
 %% ROS Setup
 machine_ip = '172.31.32.1';
