@@ -1,3 +1,3 @@
  - Uses MATLAB 2021b
- - Run dnmpc_test.m for a half ok demo
- - I will clean up this mess later
+ - Run MPC_test.m for a demo
+ - MPC_with_sim_test.m runs in the FSAE simulator using the sim bridge, sim tranforms and mpc transforms
