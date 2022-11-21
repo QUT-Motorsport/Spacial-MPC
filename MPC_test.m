@@ -19,7 +19,7 @@ track_table = generateTrackLookup(HDtrack, Ts);
 
 %% MPC setup
 PredictionHorizon = 6;
-InputHorizon = 2;
+InputHorizon = 5;
 X_init = [0.1 0 0 0.1 0 0 0]'; %[-0.0600   -0.0055   -0.1325    2.0000   -0.1115   -0.1002    3.1574]';% ey, etheta, otheta_dot, Vx, Vy, delta, time
 num_states = length(X_init);
 
@@ -55,8 +55,8 @@ for i = 2:simL
     tic()
     
     % get starting input
-    U(:, 1:end-1) = squeeze(inputs(i-1, :, 2:end));
-    U(:, end) = U(:, end-1);
+    U(:, 1:end) = squeeze(inputs(i-1, :, :))
+    U(:, 1:end-1) = U(:, 2:end)
     
     % get only relevant track data
     sub_track = track_table(i:i+PredictionHorizon, :);
