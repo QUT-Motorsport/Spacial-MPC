@@ -13,7 +13,7 @@ HDtrackX = HDtrack[:, 0]
 HDtrackY = HDtrack[:, 1]
 
 track_table = generateTrackLookup(HDtrack, Ts)
-
+print(track_table)
 
 # MPC setup
 PredictionHorizon = 6
@@ -31,6 +31,8 @@ inputs = np.zeros((simL, 3, InputHorizon)) # record inputs
 cost = np.zeros((1, simL)) # record costs
 
 pos = np.zeros((simL, 2)) # record x-y of car
+
+# print(pos)
 
 # simulate first step
 U, fX, C = runMPC(states[0, :], np.zeros([3, InputHorizon]), track_table[0:1+PredictionHorizon], Ts)

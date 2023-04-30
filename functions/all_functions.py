@@ -22,18 +22,18 @@ def generateTrackLookup(trackXY, Ts):
 
     trackX = trackXY[:, 0]
     trackY = trackXY[:, 1]
-    print(trackXY)
+
     t1 = trackXY[:-1, :]    
     t2 = trackXY[1:, :]
     
     # dist between all points in track
     dists = np.sqrt(np.sum((t2-t1)**2, axis=1))
-    print(len(dists))
+
     # sum distance over track and get curvature at each point
     sum_dists = np.zeros([len(dists) + 1, 1]) # sum dist along track
     curve = np.zeros([len(dists) + 1, 1]) # curvature (1/radius) of track
     angles = np.zeros([len(dists) + 1, 1]) # angle of the track
-    for i in range(1, len(dists)):
+    for i in range(1, len(dists) + 1):
         sum_dists[i] = sum_dists[i-1] + dists[i-1]
         
         x1 = trackX[i-1]
@@ -44,7 +44,7 @@ def generateTrackLookup(trackXY, Ts):
     
         angles[i-1] = np.arctan2(y2-y1, x2-x1)
         
-        if i >= len(dists) + 1:
+        if i >= len(dists):
             continue
         x3 = trackX[i+1]
         y3 = trackY[i+1]
@@ -68,7 +68,6 @@ def generateTrackLookup(trackXY, Ts):
     curve[0] = curve[1]
     curve[-1] = curve[-2]
     angles[-1] = angles[-2]
-    print(sum_dists)
     # lookup table for MPC - cut down from full data using Ts
     track_table = np.zeros([int(np.floor(sum_dists[-1]/Ts)), 6])
     
@@ -76,9 +75,12 @@ def generateTrackLookup(trackXY, Ts):
         s = i*Ts
         j = np.argmin(np.abs(sum_dists - s))
     
-        track_table[i, :] = [sum_dists[j], trackXY[j, :], curve[j], angles[j], 0]
-    track_table[:-1, 5] = track_table[1:, 4]-track_table[:-1, 4]
-    track_table[:,5] = track_table[:-1,5]
+        track_table[i, :] = [sum_dists[j], trackXY[j, 0], trackXY[j, 1], curve[j], angles[j], 0]
+    
+    print(track_table)
+
+    track_table[:-1, 5] = track_table[1:, 4] - track_table[:-1, 4]
+    track_table[-1, 5] = track_table[-2, 5]
     
     return track_table
 
