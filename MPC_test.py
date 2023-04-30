@@ -1,5 +1,5 @@
 import numpy as np
-from .functions.all_functions import *
+from functions.all_functions import * #Removed the . in front of functions so python doesn't think functions is a package
 
 ## track lookup
 # since this mpc simulates in distance steps the track must be discretised in those distance steps

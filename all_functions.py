@@ -10,32 +10,30 @@ def track():
 
     return trackXY
 
-import numpy as np
-
 def generateTrackLookup(trackXY, Ts):
     # inputs are:
     # trackXY - track centerline as series of x-y points (by column)
     # Ts - MPC step size (meters)
 
-    # track table returned has colums:
+    # track table returned has columns:
     # s (dist along track centerline) | track x | track y | track curvature (1/radius) | track angle (rad) | track angle diff
 
     trackX = trackXY[:, 0]
     trackY = trackXY[:, 1]
-    print(trackXY)
-    t1 = trackXY[:-1, :]    
+    
+    t1 = trackXY[:-1, :]
     t2 = trackXY[1:, :]
     
     # dist between all points in track
     dists = np.sqrt(np.sum((t2-t1)**2, axis=1))
-    print(len(dists))
+    
     # sum distance over track and get curvature at each point
     sum_dists = np.zeros([len(dists) + 1, 1]) # sum dist along track
     curve = np.zeros([len(dists) + 1, 1]) # curvature (1/radius) of track
     angles = np.zeros([len(dists) + 1, 1]) # angle of the track
-    for i in range(1, len(dists)):
+    for i in range(1, len(dists) + 1):
         sum_dists[i] = sum_dists[i-1] + dists[i-1]
-        
+    
         x1 = trackX[i-1]
         x2 = trackX[i]
     
@@ -47,6 +45,7 @@ def generateTrackLookup(trackXY, Ts):
         if i >= len(dists) + 1:
             continue
         x3 = trackX[i+1]
+        
         y3 = trackY[i+1]
     
         a = np.sqrt((x1-x2)**2+(y1-y2)**2) # The three sides
@@ -68,19 +67,16 @@ def generateTrackLookup(trackXY, Ts):
     curve[0] = curve[1]
     curve[-1] = curve[-2]
     angles[-1] = angles[-2]
-    print(sum_dists)
+    
     # lookup table for MPC - cut down from full data using Ts
     track_table = np.zeros([int(np.floor(sum_dists[-1]/Ts)), 6])
-    
     for i in range(len(track_table)):
-        s = i*Ts
+        s = (i)*Ts
         j = np.argmin(np.abs(sum_dists - s))
     
-        track_table[i, :] = [sum_dists[j], trackXY[j, :], curve[j], angles[j], 0]
-    track_table[:-1, 5] = track_table[1:, 4]-track_table[:-1, 4]
-    track_table[:,5] = track_table[:-1,5]
-    
-    return track_table
+        track_table[i, :] = [sum_dists[j], trackXY[j, :], curve[j], angles[j], 0, 0]
+    track_table[:-1, 5] = track_table[1:, 4] - track_table[:-1, 4]
+    track_table[-1, 5] = track_table[-2, 5]
 
 def dbike_model(X, U, track):
     ## parameters
