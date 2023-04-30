@@ -21,7 +21,6 @@ InputHorizon = 5
 X_init = np.array([0.1, 0, 0, 0.1, 0, 0, 0])#[-0.0600   -0.0055   -0.1325    2.0000   -0.1115   -0.1002    3.1574]';% ey, etheta, otheta_dot, Vx, Vy, delta, time
 num_states = len(X_init)
 
-
 # sim
 simL = len(track_table) - 5 - PredictionHorizon  # simulation steps - simulate to end of track
 

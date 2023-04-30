@@ -1,3 +1,4 @@
+from scipy.optimize import minimize
 import numpy as np
 
 def track():
@@ -316,17 +317,18 @@ def getnp(X0, track, prediction_horizon, input_horizon, Ts):
     
     return np, np_equ
 
-
-from scipy.optimize import minimize
-
 def runMPC(state, Uinit, track_table, Ts):
     # calculated parameters
     Ih = Uinit.shape[1]
     Ph = track_table.shape[0] - 1
 
     # parameters
-    input_UB = np.array([np.ones(Ih)*np.pi/4/2, np.ones(Ih)*1, np.ones(Ih)]).T # steering rate (rad/s), accel (m/s/s), constraint violations (0 to 1 for no volation to max violation)
+    # upper bound
+    # steering rate (rad/s), accel (m/s/s), constraint violations (0 to 1 for no volation to max violation)
+    input_UB = np.array([np.ones(Ih)*np.pi/4/2, np.ones(Ih)*1, np.ones(Ih)]).T 
+    # lower bound
     input_LB = np.array([-np.ones(Ih)*np.pi/4/2, -np.ones(Ih)*1, np.zeros(Ih)]).T
+    # options params
     options = {'maxiter': 10000}
     
     # 
